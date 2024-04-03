@@ -390,26 +390,23 @@ p {
 
 .activité-cards-container {
     display: flex;
-    align-items: center;
     gap: 30px;
-    
 }
 .activité-cards {
-    flex: 1;
     border-radius: 20px;
     width: 100%;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     background-color: #ffffff;
-    flex-grow: 1;
-    
+   display: flex;
+   flex-direction: column;
 }
 .activité-cards p {
     font-weight: 700;
     padding: 20px 19px 20px 19px;
     margin: 0;
     font-size: 1rem;
-
 }
+
 .Activités {
     padding: 30px;
     gap: 30px;
@@ -502,8 +499,8 @@ footer li {
     .Activités img {
         height: 200px;
     }
-
 }
+   
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
