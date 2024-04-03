@@ -400,6 +400,7 @@ p {
     width: 100%;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     background-color: #ffffff;
+    flex-grow: 1;
     
 }
 .activité-cards p {
@@ -425,7 +426,9 @@ p {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
     
+    
 }
+
 /****** Footer ***********/
 
 footer {
@@ -499,6 +502,7 @@ footer li {
     .Activités img {
         height: 200px;
     }
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -584,6 +588,9 @@ footer li {
     footer {
         flex-direction: column;
         padding: 30px;
+    }
+    .activité-cards-container {
+        flex-direction: column;
     }
     
     
