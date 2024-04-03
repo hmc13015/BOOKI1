@@ -29,41 +29,34 @@
         </header>
         <main>
             <section class="first-container">
-                <div>
+                <div class="first-container-tittle">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-                <div class="search-barre">
-                    <div class="icon-size">
+                <form class="search-bar">
+                    <div class="map-icon">
                         <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                     </div>
-                    <div>
-                        <input type="search" value="Marseille, France" class="search-area">
+                    <input type="search" placeholder="Marseille, France">
+                    <button type="submit">Rechercher</button>
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
                     </div>
-                    <div>
-                        <input type="button" class="search-button" value="Rechercher">
-                    </div>
-                </div>
+                </form>
+
                 <div class="filterBar">
                     <p>Filtres</p>
-                    <li>
-                        <ul>
-                            <i class="fa-solid fa-money-bill-wave" style="color: #005eff;"></i>
-                            Economique
-                        </ul>
-                        <ul>
-                            <i class="fa-solid fa-person" style="color: #005eff;"></i>
-                            Familial
-                        </ul>
-                        <ul>
-                            <i class="fa-solid fa-heart" style="color: #005eff;"></i>
-                            Romantique
-                        </ul>
-                        <ul>
-                            <i class="fa-solid fa-fire" style="color: #005eff;"></i>
-                            Nos pépites
-                        </ul>
-                    </li>
+                    <div class="filterlinks">
+                        <div class="Filterpart">
+                            <a href="#"><i class="fa-solid fa-money-bill-wave"
+                                    style="color: #005eff;"></i>Economique</a>
+                            <a href="#"><i class="fa-solid fa-person" style="color: #005eff;"></i>Familial</a>
+                        </div>
+                        <div class="Filterpart">
+                            <a href="#"><i class="fa-solid fa-heart" style="color: #005eff;"></i>Romantique</a>
+                            <a href="#"><i class="fa-solid fa-fire" style="color: #005eff;"></i>Nos pépites</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="info-barre">
                     <div class="info-barre-container">
@@ -82,8 +75,10 @@
                             <article class="card">
                                 <img src="images/hebergements/fred-kleber.jpg">
                                 <div class="card-content">
+
                                     <h3>Hôtel du port</h3>
                                     <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -195,7 +190,7 @@
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
-                                        <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                        <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -251,9 +246,78 @@
                     </div>
                 </section>
             </div>
+            <section class="Activités">
+                <div>
+                    <h2>Activités à Marseille</h2>
+                </div>
+                <div class="activité-cards-container">
+                    <article class="activité-cards ">
+                        <img src="images/activites/reno-laithienne.jpg">
+                        <p>Vieux-port</p>
+                    </article>
+                    <article class="activité-cards">
+                        <img src="images/activites/paul-hermann.jpg">
+                        <div class="activites-frame">
+                            <p>Fort de Pomègues</p>
+                        </div>
+                    </article>
+                    <article class="activité-cards">
+                        <img src="images/activites/kilyan-sockalingum.jpg">
+                        <div class="activites-frame">
+                            <p>Parc national des Calanques</p>
+                        </div>
+                    </article>
+                    <article class="activité-cards">
+                        <img src="images/activites/florian-wehde (1).jpg">
+                        <div class="activites-frame">
+                            <p>Notre-dame-de-la-Garde</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer-links">
+                <h4>À propos</h4>
+                <li>
+                    <ul>Fonctionnement du site</ul>
+                    <ul>Conditions générales</ul>
+                    <ul>Données et confidentialité</ul>
+                </li>
+            </div>
+            <div class="footer-links">
+                <h4>Nos hébergements</h4>
+                <li>
+                    <ul>Charte qualité</ul>
+                    <ul>Proposer votre hôtel</ul>
+                </li>
+            </div>
+            <div class="footer-links">
+                <h4>Assistance</h4>
+                <li>
+                    <ul>Centre d'aide</ul>
+                    <ul>Nous contacter</ul>
+            </div>
+        </footer>
     </div>
 </body>
 
 </html>
+<!-- <div class="search-barre">
+    <div class="icon-size">
+        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+    </div>
+    <div>
+        <input type="search" value="Marseille, France" class="search-area">
+
+    </div>
+    <div>
+        <div>
+            <input type="button" class="search-button" value="Rechercher">
+        </div>
+        <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        </div>
+    </div>
+</div> -->
+<!-- <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i> -->
