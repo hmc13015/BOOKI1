@@ -399,6 +399,7 @@ p {
     background-color: #ffffff;
    display: flex;
    flex-direction: column;
+   cursor: pointer;
 }
 .activité-cards p {
     font-weight: 700;
