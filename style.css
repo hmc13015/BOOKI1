@@ -394,7 +394,26 @@ h1 {
     
     
 }
-
+/****** Footer ***********/
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+}
+footer h4 {
+    font-size: 18px;
+}
+.footer-links {
+    flex: 1;
+    padding: 20px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
