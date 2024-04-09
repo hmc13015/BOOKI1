@@ -238,12 +238,75 @@ h1 {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hebergements h2 {
+    font-size: 22px;
+}
+.hebergements-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 20px;
+    padding: 0 0 15px 0;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    flex: 1;
+    
+}
+
+.content-card {
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex-grow: 1;
+    gap: 5px;
+    
+}
+.content-card-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.content-card h3 {
+    font-size: 16px;
+}
+.content-card p {
+    font-size: 14px;
+}
+.hebergements img {
+    height: 124px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    border: solid 5px white;
+}
+.hebergements a {
+   display: flex;
+   flex: 1;
+}
+
+.hebergements-part {
+    display: flex;
+    gap: 30px;
+    
+}
+.Afficher {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .populaires-title {
@@ -254,7 +317,12 @@ h1 {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+}
+.populaires-cards {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .populaires-cards img {
@@ -285,8 +353,47 @@ h1 {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/****** Activités ***********/
 
 
+.activité-cards-container {
+    display: flex;
+    gap: 30px;
+}
+.activité-cards {
+    border-radius: 20px;
+    width: 100%;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+.activité-cards p {
+    font-weight: 700;
+    padding: 20px 19px 20px 19px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.Activités {
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Activités h2 {
+   margin: 0;
+}
+.Activités img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    
+    
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
