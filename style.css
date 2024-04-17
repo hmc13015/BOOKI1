@@ -209,6 +209,10 @@ h1 {
     display: flex;
     gap:15px ;
 }
+.filter-bar span {
+    font-size: 17px;
+    font-weight:700 ;
+}
 
 .filter-bar button:hover {
     background-color: #DEEBFF;
@@ -466,13 +470,14 @@ footer ul {
     .populaires-cards .card-subtitle {
         font-size: 14px;
     }
-    .filter-bar ul p {
-        font-size: 16px;
-    }
+    
     .filter-bar {
         flex-direction: column;
         align-items: flex-start;
         gap:20px;
+    }
+    .filter-bar span {
+        font-size: 16px;
     }
     .activité-cards img {
         height: 200px;
@@ -516,9 +521,7 @@ header li:hover {
     border-bottom: solid 2px #0065FC;
     border-top-color: white;
 }
-.filter-bar ul p {
-    font-size: 14px;
-}
+
 .filter-bar li {
     width: 100%;
     display: flex;
@@ -530,6 +533,9 @@ header li:hover {
 }
 .filter-bar {
     gap: 20px;
+}
+.filter-bar span {
+    font-size: 14px;
 }
 
 .filter-button {
