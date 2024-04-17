@@ -378,11 +378,12 @@ h1 {
    flex-direction: column;
    cursor: pointer;
 }
-.activité-cards p {
+.activité-cards h5 {
     font-weight: 700;
     padding: 20px 19px 20px 19px;
     margin: 0;
-    font-size: 1rem;
+    font-size: 16px;
+    
 }
 
 .activites-frame {
