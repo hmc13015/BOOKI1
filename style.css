@@ -384,6 +384,12 @@ h1 {
     font-size: 1rem;
 }
 
+.activites-frame {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+
 .Activités {
     padding: 30px;
     gap: 30px;
@@ -464,9 +470,13 @@ footer ul {
     .filter-bar {
         flex-direction: column;
         align-items: flex-start;
+        gap:20px;
     }
     .activité-cards img {
         height: 200px;
+    }
+    .activites-frame {
+        height: 70px;
     }
 }
     
