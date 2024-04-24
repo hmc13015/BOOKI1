@@ -146,7 +146,8 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-    
+    display: flex;
+    align-items: center;
 }
 .map-icon {
     background-color:#F2F2F2;
